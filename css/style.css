@@ -178,7 +178,6 @@ a {
 .project-option li a {
   padding: 7px;
   border-radius: 3px;
-
   color: black;
 }
 
@@ -325,6 +324,30 @@ a {
 }
 
 /* ----------------------------------- Responsive CSS ----------------------------------------- */
+@media only screen and (min-width: 1031px) {
+  .project-img-box {
+    width: 50%;
+  }
+  .project-info {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  html {
+    font-size: 20px;
+  }
+
+  .coin-tracker-img {
+    width: 530px;
+    margin-bottom: 3rem;
+  }
+  .chrome-app-img {
+    width: 530px;
+    margin-bottom: 3rem;
+  }
+}
+
 @media only screen and (max-width: 1030px) {
   html {
     font-size: 18px;
@@ -339,7 +362,7 @@ a {
     margin-bottom: 3rem;
   }
 }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 840px) {
   html {
     font-size: 15px;
   }
