@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/06ad75dee2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <ul class="nav-manu">
+        <li>
+          <a href="/index.html">
+            <img src="../img/logo boram.jpg" alt="boram kim Logo" />
+          </a>
+        </li>
+        <div class="visibleMenu">
+          <li><a href="/index.html">Home</a></li>
+          <li class="nav-about"><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </div>
+        <li>
+          <a href="#" class="nav_menuBtn" id="navBtn">
+            <i class="fas fa-bars"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="contact-container">
+      <h1>Contact Me!</h1>
+      <form action="" id="contact-us" autocomplete="off">
+        <div class="contact-inputBox">
+          <label for="name">Enter your name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="contact-inputBox">
+          <label for="email">Enter your email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="contact-inputBox">
+          <label for="message">Write what you think</label><br />
+          <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        </div>
+        <div class="submitBtnBox">
+          <input type="submit" value="Send" />
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="../js/nav.js"></script>
+</html>

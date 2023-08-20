@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/06ad75dee2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Projects</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <ul class="nav-manu">
+        <li>
+          <a href="/index.html">
+            <img src="../img/logo boram.jpg" alt="boram kim Logo" />
+          </a>
+        </li>
+        <div class="visibleMenu">
+          <li><a href="/index.html">Home</a></li>
+          <li class="nav-about"><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </div>
+        <li>
+          <a href="#" class="nav_menuBtn" id="navBtn">
+            <i class="fas fa-bars"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <h3 class="project-guide" id="projectGuide">
+      Please click a name of project below to explore more.
+    </h3>
+    <ul class="project-option">
+      <li id="instaBtn"><a href="#">Instagram Clone Coding</a></li>
+      <li id="coinBtn"><a href="#">Coin Tracker</a></li>
+      <li id="chromeBtn"><a href="#">Chrome App Clone Coding</a></li>
+    </ul>
+
+    <main class="project">
+      <div class="main-insta" id="insta">
+        <div class="project-img-box">
+          <img
+            class="insta-img"
+            src="../img/instagram_clone_coding.jpg"
+            alt="Instagram_Clone_Coding_Image"
+          />
+        </div>
+        <div class="project-info">
+          <title>Instagram Clone Coding</title>
+          <p>
+            My first personal project after learning HTML and CSS. I wanted to
+            make it exactly same as how I see Instagram from my Cellphone. It
+            contains 7 pages; Instagram first page asking to create an account
+            or to login, Login page, Instagram main page, My story, Post
+            content, Activity(which shows “Like” activity), Message.
+          </p>
+          <div class="projectBtn-box">
+            <button>
+              <a
+                href="https://borat55.github.io/instagram_app_clone_coding/"
+                target="_blank"
+                >View Project</a
+              >
+            </button>
+            <button>
+              <a
+                href="https://github.com/borat55/instagram_app_clone_coding"
+                target="_blank"
+                >View Code</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-coin-tracker" id="coinTracker">
+        <div class="project-img-box">
+          <img
+            class="coin-tracker-img"
+            src="../img/coin-tracker.jpg"
+            alt="Coin_Tracker_Image"
+          />
+        </div>
+        <div class="project-info">
+          <title>Coin Tracker</title>
+          <p>
+            It shows the information of cryptocurrency. If you click a name of
+            the cryptocurrency, the page will show you all about the
+            cryptocurrency, by explaining about the coin, and comparing the
+            price of coin, and visualizing the price per each time or day in
+            line chart/candle stick chart. It fetches data from cryptocurrency
+            API by using React Query, and presents the information in real time
+            in the page. The light and dark mode is built with Styled Components
+            and Recoil. The charts are built with Apex Chart.
+          </p>
+          <div class="projectBtn-box">
+            <button>
+              <a href="https://borat55.github.io/coin-tracker/" target="_blank"
+                >View Project</a
+              >
+            </button>
+            <button>
+              <a href="https://github.com/borat55/coin-tracker" target="_blank"
+                >View Code</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-chrome-app-clone-coding" id="chromeCline">
+        <div class="project-img-box">
+          <img
+            class="chrome-app-img"
+            src="../img/chrome-app-clone.jpg"
+            alt="Chrome_App_Clone_Coding_Image"
+          />
+        </div>
+        <div class="project-info">
+          <title>Chrome App Clone Coding</title>
+          <p>
+            Chrome App that has a to-do list, date/time, weather forecast and
+            quote for the day. In the to-do list, there are 3 categories; to-do,
+            doing, done. You can move a to-do to other categories from
+            to-do(default) according to the status of the to-do. For the weather
+            forecast, if you put a name of city correctly, it shows you the
+            weather information of the city. I used React Hook Form to validate
+            forms, and Recoil to change / manage the status of components.
+          </p>
+          <div class="projectBtn-box">
+            <button>
+              <a
+                href="https://borat55.github.io/chrome-app-clone/"
+                target="_blank"
+                >View Project</a
+              >
+            </button>
+            <button>
+              <a
+                href="https://github.com/borat55/chrome-app-clone"
+                target="_blank"
+                >View Code</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="../js/projects.js"></script>
+  <script src="../js/nav.js"></script>
+</html>

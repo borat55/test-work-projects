@@ -1,0 +1,538 @@
+/* ----------------------------------- Global CSS ----------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,500&family=Dancing+Script:wght@700&family=Raleway:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Bricolage Grotesque;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----------------------------------- Hero Section CSS ----------------------------------------- */
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(109, 46, 1, 0.637), rgba(236, 176, 79, 0.19)),
+    url("../img/IMG_8208.JPG") no-repeat center / cover;
+  color: white;
+}
+
+.hero-container {
+  width: 90%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-info h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-info p {
+  font-size: 1.2rem;
+  max-width: 80%;
+  margin-bottom: 2rem;
+}
+
+.hero-info a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.5em 2em;
+  color: brown;
+}
+
+/* ----------------------------------- Nav CSS ----------------------------------------- */
+
+.nav-bar {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.nav-manu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visibleMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-manu li {
+  margin: 10px;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.nav-manu li a {
+  padding: 20px;
+}
+
+.nav-manu li a,
+.nav-manu li a:visited {
+  color: inherit;
+}
+
+.nav-manu li a img {
+  width: 120px;
+  margin: 0;
+}
+
+.visibleMenu li:hover,
+.nav-manu li a:hover {
+  color: brown;
+  transition: all 0.5s ease-out;
+}
+
+.nav_menuBtn {
+  visibility: hidden;
+  position: absolute;
+  right: 25px;
+  top: 22px;
+}
+
+/* ----------------------------------- About Section CSS ----------------------------------------- */
+
+.about-container {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+}
+
+.about-img img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.about-info,
+.amout-img {
+  width: 70%;
+}
+
+.about-info h2 {
+  margin-bottom: 2rem;
+}
+
+.about-info p {
+  width: 70%;
+  display: inline;
+  line-height: 35px;
+}
+
+#readMoreBtn {
+  outline: none;
+  padding: 10px 15px;
+  font-weight: bolder;
+  border: none;
+  background-color: transparent;
+  color: red;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+#more {
+  display: none;
+}
+
+/* ----------------------------------- Contact Section CSS ----------------------------------------- */
+.project-guide {
+  margin: 2rem 0 5rem 3rem;
+}
+
+.project-option {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.project-option li a {
+  padding: 7px;
+  border-radius: 3px;
+
+  color: black;
+}
+
+.project-option li a:hover {
+  color: brown;
+  background-color: blanchedalmond;
+  transition: all 0.5s linear;
+}
+
+.project {
+  width: 100%;
+}
+
+.main-insta,
+.main-coin-tracker,
+.main-chrome-app-clone-coding {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.project-img-box {
+  text-align: center;
+  margin: 20px;
+}
+
+.insta-img {
+  width: 350px;
+}
+.coin-tracker-img {
+  width: 600px;
+}
+.chrome-app-img {
+  width: 700px;
+}
+.insta-img,
+.coin-tracker-img,
+.chrome-app-img {
+  border-radius: 5px;
+}
+
+.project-info {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-info p {
+  margin-bottom: 3rem;
+  line-height: 2rem;
+}
+
+.projectBtn-box button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: brown;
+  color: bisque;
+  font-size: 0.7rem;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.projectBtn-box button a {
+  color: bisque;
+  padding: 10px;
+}
+.projectBtn-box button:hover {
+  background-color: bisque;
+  color: brown;
+  transition: all 0.5s linear;
+}
+.projectBtn-box button a:hover {
+  color: brown;
+  transition: all 0.5s linear;
+}
+
+/* ----------------------------------- Contact Section CSS ----------------------------------------- */
+
+.contact-container {
+  margin: 40px auto;
+  width: 700px;
+  height: 750px;
+  border: 3px solid black;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container h1 {
+  font-size: 3rem;
+  margin: 50px 0 70px 0;
+}
+
+.contact-inputBox {
+  margin: 30px;
+}
+
+.contact-inputBox label {
+  font-size: 1.3rem;
+}
+
+.contact-inputBox input {
+  width: 390px;
+  height: 50px;
+  padding: 20px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.contact-inputBox input:active,
+.contact-inputBox input:focus,
+.contact-inputBox input:hover,
+.contact-inputBox input::after {
+  background-color: transparent;
+}
+
+.contact-inputBox textarea {
+  margin-top: 20px;
+  font-size: 1rem;
+  padding: 20px;
+  line-height: 35px;
+}
+
+.submitBtnBox {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.submitBtnBox input {
+  background-color: transparent;
+  font-size: 0.8rem;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ----------------------------------- Responsive CSS ----------------------------------------- */
+@media only screen and (max-width: 1030px) {
+  html {
+    font-size: 18px;
+  }
+
+  .coin-tracker-img {
+    width: 450px;
+    margin-bottom: 3rem;
+  }
+  .chrome-app-img {
+    width: 450px;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 830px) {
+  html {
+    font-size: 15px;
+  }
+
+  .hero-container {
+    text-align: center;
+  }
+
+  .hero-info p {
+    margin: 0 auto 2rem auto;
+  }
+
+  .nav-manu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-manu li a img {
+    width: 80px;
+    margin: 0;
+  }
+
+  .nav_menuBtn {
+    font-size: 2rem;
+    visibility: visible;
+  }
+
+  .visibleMenu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: none;
+  }
+
+  .visibleMenu.active {
+    display: flex;
+  }
+
+  .about-container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img img {
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .main-insta,
+  .main-coin-tracker,
+  .main-chrome-app-clone-coding {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+  }
+
+  .project-info p {
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .projectBtn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container {
+    margin: 30px auto;
+    width: 450px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 8%;
+  }
+
+  .contact-container h1 {
+    font-size: 4rem;
+    margin: 20px 0 30px 0;
+  }
+
+  .contact-inputBox {
+    margin: 40px;
+  }
+
+  .contact-inputBox input {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  .contact-inputBox textarea {
+    margin-top: 20px;
+    padding: 10px;
+    line-height: 20px;
+    width: 355px;
+  }
+
+  .submitBtnBox {
+    text-align: right;
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-option li {
+    margin: 7px;
+  }
+
+  .insta-img {
+    width: 300px;
+    margin-bottom: 3rem;
+  }
+  .coin-tracker-img {
+    width: 400px;
+    margin-bottom: 3rem;
+  }
+  .chrome-app-img {
+    width: 400px;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .insta-img {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+  .coin-tracker-img {
+    width: 250px;
+    margin-bottom: 3rem;
+  }
+  .chrome-app-img {
+    width: 250px;
+    margin-bottom: 3rem;
+  }
+
+  .contact-container {
+    margin: 30px auto;
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 8%;
+  }
+
+  .contact-container h1 {
+    font-size: 2rem;
+    margin: 20px 0 30px 0;
+  }
+
+  .contact-inputBox {
+    margin: 15px;
+  }
+
+  .contact-inputBox label {
+    font-size: 1rem;
+  }
+
+  .contact-inputBox input {
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  .contact-inputBox textarea {
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 20px;
+    width: 275px;
+  }
+
+  .submitBtnBox {
+    text-align: right;
+    margin-right: 15px;
+  }
+}
