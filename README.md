@@ -1,5 +1,8 @@
 # A simple webpage introducing about myself
 
+![test](https://github.com/borat55/test-work-projects/assets/86196159/65dcef10-c027-4db6-96b5-b846353427e6)
+
+![test mobile](https://github.com/borat55/test-work-projects/assets/86196159/ef781530-adf2-43e2-9c4d-b348fa4f3c53)
 
 <a href="https://borat55.github.io/test-work-projects/">https://borat55.github.io/test-work-projects/</a>
 
